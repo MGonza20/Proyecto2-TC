@@ -12,4 +12,5 @@ nueve = lambda f: lambda x: f(f(f(f(f(f(f(f(f(x)))))))))
 diez = lambda f: lambda x: f(f(f(f(f(f(f(f(f(f(x))))))))))
 
 
-
+sucesor = lambda n: lambda f: lambda x: f(n(f)(x))
+potencia = lambda a: lambda b: lambda f: lambda x: b(a)(f)(x)
