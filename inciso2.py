@@ -78,10 +78,11 @@ print(cuatro(lambda x: x * 2)(1))
 print(suma(cinco)(cuatro)(lambda x: x * 2)(1))
 print(nueve(lambda x: x * 2)(1))
 
+print("Multiplicacion")
+
 # Deben ser iguales
 print(multiplicacion(dos)(uno)(lambda x: x * 2)(1))
 print(dos(lambda x: x * 2)(1))
-print("Multiplicacion")
 
 # Deben ser iguales
 print(multiplicacion(tres)(tres)(lambda x: x * 2)(1))
