@@ -81,8 +81,7 @@ print(nueve(lambda x: x * 2)(1))
 # Deben ser iguales
 print(multiplicacion(dos)(uno)(lambda x: x * 2)(1))
 print(dos(lambda x: x * 2)(1))
-p
-rint("Multiplicacion")
+print("Multiplicacion")
 
 # Deben ser iguales
 print(multiplicacion(tres)(tres)(lambda x: x * 2)(1))
